@@ -11,7 +11,7 @@
 
 [**Project**](https://speechresearch.github.io/fastspeech/) <strong><span class='show_paper_citations' data='4FA6C0AAAAAJ:qjMakFHDy7sC'></span></strong>
 
-- FastSpeech is the first fully parallel end-to-end speech synthesis model.
+- **Doctopus** is a budget-aware information extraction framework designed to efficiently and accurately extract structured data from large-scale unstructured documents under cost constraints.
 - **Academic Impact**: It integrates **Retrieval-Augmented Generation (RAG)** with a dynamic strategy selection mechanism, utilizing dynamic programming to automatically find the optimal combination of LLM calls and code generation.
 - **Industry Impact**: Extensive evaluations show that Doctopus improves accuracy by **11%** under the same cost, or achieves a **2.7x cost reduction** while maintaining precision.
 </div>
