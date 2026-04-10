@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Yunahao Zhong (钟元浩)"
-description              : "Focusing on AI4Data, AI Agents and Multimodal Large Language Models."
+description              : 
 repository               : "zyh3699/zyh3699.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,7 +23,7 @@ baidu_site_verification  : ""
 author:
   name             : "Yunahao Zhong"
   avatar           : "images/zyhpf.jpg"
-  bio              : 
+  bio              : "Focusing on AI4Data, AI Agents and Multimodal Large Language Models."
   location         : "China"
   employer         : 
   pubmed           : 
