@@ -7,7 +7,7 @@
 <div class='paper-box-text' markdown="1">
 
 [Doctopus: Budget-aware Structural Data Extraction from Documents](https://dl.acm.org/doi/pdf/10.1145/3722212.3725103) \\
-**Yuanhao Zhong**, Yuhao Deng, Chengliang Chai, Ruixin Gu, Ye Yuan, Guoren Wang, Lei Cao
+**Yuanhao Zhong**, Yuhao Deng, Chengliang Chai, et al.
 
 [**Project**](https://speechresearch.github.io/fastspeech/) <strong><span class='show_paper_citations' data='GLH_HM0AAAAJ:u5HHmVD_uO8C'></span></strong> \| [**Video Demo**](https://youtu.be/Cxl_PfvZY10?si=NYoHt2SyD9KHqd6V) 
 
