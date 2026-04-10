@@ -15,6 +15,7 @@
 - **Academic Impact**: It integrates **Retrieval-Augmented Generation (RAG)** with a dynamic strategy selection mechanism, utilizing dynamic programming to automatically find the optimal combination of LLM calls and small models.
 - **Industry Impact**: Extensive evaluations show that Doctopus improves accuracy by **11%** under the same cost, or achieves a **2.7x cost reduction** while maintaining precision.
 </div>
+</div>
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2021</div><img src='images/fs2.png' alt="sym" width="100%"></div></div>
