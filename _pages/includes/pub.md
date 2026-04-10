@@ -1,6 +1,6 @@
 
 # 📝 Publications 
-## 🗄️ AI-Native Data Systems
+## 📊 AI-Native Data Systems
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">SIGMOD 2025</div><img src='images/doctopus.png' alt="sym" width="100%; height:220px"></div></div>
@@ -31,5 +31,5 @@ Zequn Li*, **Yuanhao Zhong***, Chengliang Chai, Zhaoze Sun, Ye Yuan, Lei Cao
 
 - `VLDB 2025` [Budget-aware Structural Table Extraction from Unstructured Documents](https://www.vldb.org/pvldb/vol18/p3695-chai.pdf), Chengliang Chai, Jiajun Li, Yuhao Deng, **Yuanhao Zhong**, Ye Yuan, Lei Cao
 
-## Others
+## 💡 Others
 - `CCL 2025` [Application of Macroscopic Pattern Prompting and Efficient Finetuning in Factivity Inference](https://aclanthology.org/2025.ccl-2.14.pdf), Zequn Li*, **Yuanhao Zhong***, Chengliang Chai
