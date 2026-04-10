@@ -22,14 +22,16 @@ baidu_site_verification: ""
 # Site Author
 author:
   name: "Yunahao Zhong"
-  avatar: "images/zyhpf.jpg"
+  avatar: "images/zyh.jpg"
   bio: "Focusing on AI4Data, AI Agents and Multimodal Large Language Models."
   location: "Beijing, China"
-  employer: "ChatExcel"
+  employer:
   pubmed:
   googlescholar: "https://scholar.google.com/citations?user=GLH_HM0AAAAJ"
   school: "Beijing Institute of Technology"
   school_url: ""
+  company: "ChatExcel"
+  company_url: "https://www.chatexcel.com/"
   email: "zephyrzhong248@gmail.com"
   researchgate: # example: "https://www.researchgate.net/profile/yourprofile"
   uri:
