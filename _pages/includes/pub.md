@@ -21,10 +21,11 @@
 <div class='paper-box-text' markdown="1">
 
 [FDocDB: A Database for Unstructured Document Analysis](https://www.vldb.org/pvldb/vol18/p5387-chai.pdf) \\
-Zequn Li*, **Yuanhao Zhong**, Chengliang Chai, Zhaoze Sun, Ye Yuan, Lei Cao
+Zequn Li*, **Yuanhao Zhong***, Chengliang Chai, Zhaoze Sun, Ye Yuan, Lei Cao
 
-[**Project**](https://speechresearch.github.io/fastspeech2/) <strong><span class='show_paper_citations' data='4FA6C0AAAAAJ:LkGwnXOMwfcC'></span></strong>
-  - This work is included by many famous speech synthesis open-source projects, such as [PaddlePaddle/Parakeet ![](https://img.shields.io/github/stars/PaddlePaddle/PaddleSpeech?style=social)](https://github.com/PaddlePaddle/PaddleSpeech), [ESPNet ![](https://img.shields.io/github/stars/espnet/espnet?style=social)](https://github.com/espnet/espnet) and [fairseq ![](https://img.shields.io/github/stars/pytorch/fairseq?style=social)](https://github.com/pytorch/fairseq).
+[**Project**](https://github.com/zyh3699/DocDB) <strong><span class='show_paper_citations' data='GLH_HM0AAAAJ:u-x6o8ySG0sC'></span></strong> \| [**Video Demo**](https://youtu.be/8yDIKOBHIOg) 
+  - **DocDB** is an innovative database system tailored for unstructured document analysis, enabling users to perform complex data filtering and joining via standard **SQL queries**.
+  - **Performance**: DocDB significantly outperforms existing state-of-the-art systems (such as PZ and ZenDB) in query accuracy, execution latency, and Token consumption cost.
 </div>
 </div>
 
