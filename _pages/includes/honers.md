@@ -3,7 +3,7 @@
 - *2025.12*, Special Prize, "Challenge Cup" Capital College Students' Academic Works Competition.
 - *2025.11*, Special Prize, “Century Cup” Student Entrepreneurship Competition.
 - *2025.10*, School First-Class Scholarship, Beijing Institute of Technology.
-- *2025.06*, Beijing Natural Science Foundation "Qi Yan" Program (Top 8 projects in the college).
+- *2025.08*, Beijing Natural Science Foundation "Qi Yan" Program (Top 8 projects in the college).
 - *2025.08* [Sensetime Scholarship](https://www.sensetime.com/cn/news-detail/51169803?categoryId=72) (30 students in the nation each year)
 - *2025.08*, 1st Place, Alibaba Tianchi LLM Evaluation Contest.
 - *2025.08*, National 4th Place, National Industrial Internet Entrepreneurship Competition.
