@@ -1,4 +1,4 @@
-# 🛠️ Project
+# 🛠️ Projects
 
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/recon_2.png' alt="sym" width="100%;"></div></div>
 <div class='paper-box-text' markdown="1">
