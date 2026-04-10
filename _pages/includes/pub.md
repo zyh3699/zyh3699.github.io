@@ -3,11 +3,11 @@
 ## 🗄️ AI-Native Data Systems
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SIGMOD 2025</div><img src='images/doctopus.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SIGMOD 2025</div><img src='images/doctopus.png' alt="sym" width="100%" height="120%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Doctopus: A System for Budget-aware Structural Data Extraction from Unstructured Documents](https://dl.acm.org/doi/pdf/10.1145/3722212.3725103) \\
-**Yuahao Zhong**, Yuhao Deng, Chengliang Chai, Ruixin Gu, Ye Yuan, Guoren Wang, Lei Cao
+**Yuanhao Zhong**, Yuhao Deng, Chengliang Chai, Ruixin Gu, Ye Yuan, Guoren Wang, Lei Cao
 
 [**Project**](https://speechresearch.github.io/fastspeech/) <strong><span class='show_paper_citations' data='4FA6C0AAAAAJ:qjMakFHDy7sC'></span></strong>
 
