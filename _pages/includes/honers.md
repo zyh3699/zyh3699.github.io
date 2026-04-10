@@ -1,10 +1,16 @@
 # 🎖 Honors and Awards
-- *2021.10* Tencent Scholarship (Top 1%)
-- *2021.10* National Scholarship (Top 1%)
-- *2020.12* [Baidu Scholarship](https://baike.baidu.com/item/%E7%99%BE%E5%BA%A6%E5%A5%96%E5%AD%A6%E9%87%91/9929412) (10 students in the world each year)
-- *2020.12* [AI Chinese new stars](https://mp.weixin.qq.com/s?__biz=MzA4NzQ5MTA2NA==&mid=2653639431&idx=1&sn=25b6368c1954419b9090840347d9a27d&chksm=8be75b90bc90d286a5af3ef8e610e822d705dc3cf4382b45e3f14489f3e7ec4fd8c95ed0eceb&mpshare=1&scene=2&srcid=0511LMlj9Qv9DeIZAjMjYAU9&sharer_sharetime=1620731348139&sharer_shareid=631c113940cb81f34895aa25ab14422a#rd) (100 worldwide each year)
-- *2020.12* [AI Chinese New Star Outstanding Scholar](https://mp.weixin.qq.com/s?__biz=MzA4NzQ5MTA2NA==&mid=2653639431&idx=1&sn=25b6368c1954419b9090840347d9a27d&chksm=8be75b90bc90d286a5af3ef8e610e822d705dc3cf4382b45e3f14489f3e7ec4fd8c95ed0eceb&mpshare=1&scene=2&srcid=0511LMlj9Qv9DeIZAjMjYAU9&sharer_sharetime=1620731348139&sharer_shareid=631c113940cb81f34895aa25ab14422a#rd) (10 candidates worldwide each year)
-- *2020.12* [ByteDance Scholars Program](https://ur.bytedance.com/scholarship) (10 students in China each year)
-- *2020.10* Tianzhou Chen Scholarship (Top 1%)
-- *2020.10* National Scholarship (Top 1%)
-- *2015.10* National Scholarship (Undergraduate) (Top 1%)
+- *2026.01*, First Prize, “Jingcai” Beijing College Students Entrepreneurship Competition.
+- *2025.12*, Special Prize, "Challenge Cup" Capital College Students' Academic Works Competition.
+- *2025.11*, Special Prize, “Century Cup” Student Entrepreneurship Competition.
+- *2025.10*, School First-Class Scholarship, Beijing Institute of Technology.
+- *2025.06*, Beijing Natural Science Foundation "Qi Yan" Program (Top 8 projects in the college).
+- *2025.08* [Sensetime Scholarship](https://www.sensetime.com/cn/news-detail/51169803?categoryId=72) (30 students in the nation each year)
+- *2025.08*, 1st Place, Alibaba Tianchi LLM Evaluation Contest.
+- *2025.08*, National 4th Place, National Industrial Internet Entrepreneurship Competition.
+- *2025.03*, School First-Class Scholarship, Beijing Institute of Technology.
+- *2024.11*, First Prize, National Mathematical Modeling Competition.
+- *2024.11*, First Prize, National Mathematics Competition for College Students.
+- *2024.10*, National Scholarship (Top 10 students in the college).
+- *2024.03*, School Second-Class Scholarship, Beijing Institute of Technology.
+- *2024.03*, School First-Class Scholarship, Beijing Institute of Technology.
+- *2023.11*, First Prize, BIT "Mingli Cup" Freshman Mathematics Competition.
