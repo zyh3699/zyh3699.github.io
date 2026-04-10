@@ -1,6 +1,6 @@
 # 🔥 News
 - *2026.04*: 🚀 I join ChatExcel<img src='./images/chatexcel.png' style='width: 6em;'> to lead the research on RAG and unstructured data retrieval
-- *2026.04*: 🚀 I join Edit Banana<img src='./images/editbanana' tyle='width: 6em;> to lead the research on img2svg
+- *2026.04*: 🚀 I join Edit Banana<img src='./images/editbanana.jpg' style='width: 6em;> to lead the research on img2svg
 - *2025.08*: 🏆 I won 1st Place in the Alibaba Tianchi LLM Evaluation Contest
 - *2025.08*: 🎖️ I was awarded the Sensetime Scholarship<img src='./images/sensetime.png' style='width: 6em;'>
 - *2025.07*: 🚀 My research project was selected for the Beijing Natural Science Foundation Program<img src='./images/qiyan.png' style='width: 6em;'>.
