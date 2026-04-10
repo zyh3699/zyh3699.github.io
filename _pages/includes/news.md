@@ -1,6 +1,13 @@
 # 🔥 News
-- *2024.03*: 🎉 Two papers are accepted by ICLR 2024
-- *2023.05*: 🎉 Five papers are accepted by ACL 2023
-- *2023.01*: DiffSinger was introduced in [a very popular video](https://www.bilibili.com/video/BV1uM411t7ZJ) (2000k+ views) in Bilibili!
-- *2023.01*: I join TikTok <img src='./images/tiktok.png' style='width: 6em;'> as a speech research scientist in Singapore!
-- *2022.02*: I release a modern and responsive academic personal [homepage template](https://github.com/RayeRen/acad-homepage.github.io). Welcome to STAR and FORK!
+- *2026.04*: 🚀 I join ChatExcel<img src='./images/chatexcel.png' style='width: 6em;'> to lead the research on RAG and unstructured data retrieval
+- *2026.04*: 🚀 I join Edit Banana<img src='./images/editbanana'> to lead the research on img2svg
+- *2025.08*: 🏆 I won 1st Place in the Alibaba Tianchi LLM Evaluation Contest
+- *2025.08*: 🎖️ I was awarded the Sensetime Scholarship<img src='./images/sensetime.png' style='width: 6em;'>
+- *2025.07*: 🚀 My research project was selected for the Beijing Natural Science Foundation Program<img src='./images/qiyan.png' style='width: 6em;'>.
+- *2025.07*: 🎉 One papers are accepted by VLDB 2025
+- *2025.05*: 🎉 My first-author paper Doctopus is accepted by SIGMOD 2025
+- *2024.10*: 🎖️ I was awarded the National Scholarship(8/656)
+- *2024.07*: 💼 I join Alibaba Lingxi Interactive Entertainment<img src='./images/lingxi.png' style='width: 6em;'> as an algorithm intern in Guangzhou!
+- *2022.02*: I release a modern and responsive academic personal [homepage template](https://github.com/zyh3699/awesome-github-readme-profile). Welcome to STAR!
+
+
