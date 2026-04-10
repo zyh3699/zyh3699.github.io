@@ -13,3 +13,6 @@
 
 </div>
 </div>
+
+# Others
+- [Automating the transformation of research tutorials into AI-callable production tools](https://github.com/zyh3699/nlp) <img src='./images/read.svg' style='width: 4em;'>
