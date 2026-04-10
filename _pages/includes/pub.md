@@ -6,10 +6,10 @@
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">SIGMOD 2025</div><img src='images/doctopus.png' alt="sym" width="100%" height="120%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Doctopus: A System for Budget-aware Structural Data Extraction from Unstructured Documents](https://dl.acm.org/doi/pdf/10.1145/3722212.3725103) \\
+[Doctopus: Budget-aware Structural Data Extraction from Documents](https://dl.acm.org/doi/pdf/10.1145/3722212.3725103) \\
 **Yuanhao Zhong**, Yuhao Deng, Chengliang Chai, Ruixin Gu, Ye Yuan, Guoren Wang, Lei Cao
 
-[**Project**](https://speechresearch.github.io/fastspeech/) <strong><span class='show_paper_citations' data='4FA6C0AAAAAJ:qjMakFHDy7sC'></span></strong>
+[**Project**](https://speechresearch.github.io/fastspeech/) <strong><span class='show_paper_citations' data='4FA6C0AAAAAJ:qjMakFHDy7sC'></span></strong> | [**Video Demo**](https://youtu.be/Cxl_PfvZY10?si=NYoHt2SyD9KHqd6V) 
 
 - **Doctopus** is a budget-aware information extraction framework designed to efficiently and accurately extract structured data from large-scale unstructured documents under cost constraints.
 - **Impact**: Doctopus improves accuracy by **11%** under the same cost, or achieves a **2.7x cost reduction** while maintaining precision.
