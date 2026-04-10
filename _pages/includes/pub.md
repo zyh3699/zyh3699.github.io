@@ -9,7 +9,7 @@
 [Doctopus: Budget-aware Structural Data Extraction from Documents](https://dl.acm.org/doi/pdf/10.1145/3722212.3725103) \\
 **Yuanhao Zhong**, Yuhao Deng, Chengliang Chai, Ruixin Gu, Ye Yuan, Guoren Wang, Lei Cao
 
-[**Project**](https://speechresearch.github.io/fastspeech/) <strong><span class='show_paper_citations' data='4FA6C0AAAAAJ:qjMakFHDy7sC'></span></strong> | [**Video Demo**](https://youtu.be/Cxl_PfvZY10?si=NYoHt2SyD9KHqd6V) 
+[**Project**](https://speechresearch.github.io/fastspeech/) <strong><span class='show_paper_citations' data='GLH_HM0AAAAJ:u5HHmVD_uO8C'></span></strong> \| [**Video Demo**](https://youtu.be/Cxl_PfvZY10?si=NYoHt2SyD9KHqd6V) 
 
 - **Doctopus** is a budget-aware information extraction framework designed to efficiently and accurately extract structured data from large-scale unstructured documents under cost constraints.
 - **Impact**: Doctopus improves accuracy by **11%** under the same cost, or achieves a **2.7x cost reduction** while maintaining precision.
