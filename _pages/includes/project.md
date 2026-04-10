@@ -3,7 +3,7 @@
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/recon_2.png' alt="sym" width="100%;"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Edit Banana: High-fidelity Image-to-DrawIO System](https://editbanana.anxin6.cn/) 
+[Edit Banana: High-fidelity Image-to-DrawIO System](https://editbanana.anxin6.cn/) <img src='./images/editbanana.jpg' style='width: 2em;'>
 
 [**Project**](https://github.com/BIT-DataLab/Edit-Banana) \| [![](https://img.shields.io/github/stars/BIT-DataLab/Edit-Banana?style=social&label=Edit-Banana%20Stars)](https://github.com/BIT-DataLab/Edit-Banana)
 
