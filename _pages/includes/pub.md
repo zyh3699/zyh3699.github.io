@@ -24,8 +24,8 @@
 Zequn Li*, **Yuanhao Zhong***, Chengliang Chai, Zhaoze Sun, Ye Yuan, Lei Cao
 
 [**Project**](https://github.com/zyh3699/DocDB) <strong><span class='show_paper_citations' data='GLH_HM0AAAAJ:u-x6o8ySG0sC'></span></strong> \| [**Video Demo**](https://youtu.be/8yDIKOBHIOg) 
-  - **DocDB** is an innovative database system tailored for unstructured document analysis, enabling users to perform complex data filtering and joining via standard **SQL queries**.
-  - **Performance**: DocDB significantly outperforms existing state-of-the-art systems (such as PZ and ZenDB) in query accuracy, execution latency, and Token consumption cost.
+  - **DocDB** is tailored for unstructured document analysis, enabling users to perform complex data filtering and joining via standard **SQL queries**.
+  - **Performance**: DocDB significantly outperforms existing systems in query accuracy, execution latency, and Token consumption cost.
 </div>
 </div>
 
