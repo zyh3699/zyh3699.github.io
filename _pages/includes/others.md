@@ -9,4 +9,4 @@
 
 # 💻 Internships
 - *2026.03 - 2026.04*, [Chatexcel](https://www.chatexcel.com/), Beijing.
-- *204.07 - 2024.08*, Alibaba Lingxi Interactive Entertainment, Guangzhou.
+- *2024.07 - 2024.08*, Alibaba Lingxi Interactive Entertainment, Guangzhou.
