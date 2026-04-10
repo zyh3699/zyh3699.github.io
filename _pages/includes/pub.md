@@ -32,4 +32,4 @@ Zequn Li*, **Yuanhao Zhong***, Chengliang Chai, Zhaoze Sun, Ye Yuan, Lei Cao
 - `VLDB 2025` [Budget-aware Structural Table Extraction from Unstructured Documents](https://www.vldb.org/pvldb/vol18/p3695-chai.pdf), Chengliang Chai, Jiajun Li, Yuhao Deng, **Yuanhao Zhong**, Ye Yuan, Lei Cao
 
 ## 💡 Others
-- `CCL 2025` [Application of Macroscopic Pattern Prompting and Efficient Finetuning in Factivity Inference](https://aclanthology.org/2025.ccl-2.14.pdf), Zequn Li*, **Yuanhao Zhong***, Chengliang Chai
+- `CCL 2025` [Application of Macroscopic Pattern Prompting and Efficient Finetuning in Factivity Inference](https://aclanthology.org/2025.ccl-2.14.pdf), Zequn Li*, **Yuanhao Zhong***, et al.
