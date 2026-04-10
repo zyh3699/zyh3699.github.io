@@ -11,17 +11,17 @@
 
 [**Project**](https://speechresearch.github.io/fastspeech/) <strong><span class='show_paper_citations' data='GLH_HM0AAAAJ:u5HHmVD_uO8C'></span></strong> \| [**Video Demo**](https://youtu.be/Cxl_PfvZY10?si=NYoHt2SyD9KHqd6V) 
 
-- **Doctopus** is a budget-aware information extraction framework designed to efficiently and accurately extract structured data from large-scale unstructured documents under cost constraints.
+- **Doctopus** is a framework designed to accurately extract structured data from large-scale unstructured documents under cost constraints.
 - **Impact**: Doctopus improves accuracy by **11%** under the same cost, or achieves a **2.7x cost reduction** while maintaining precision.
 </div>
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2021</div><img src='images/fs2.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">VLDB 2025</div><img src='images/docdb.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[FastSpeech 2: Fast and High-Quality End-to-End Text to Speech](https://arxiv.org/abs/2006.04558) \\
-**Yi Ren**, Chenxu Hu, Xu Tan, Tao Qin, Sheng Zhao, Zhou Zhao, Tie-Yan Liu
+[FDocDB: A Database for Unstructured Document Analysis](https://www.vldb.org/pvldb/vol18/p5387-chai.pdf) \\
+Zequn Li*, **Yuanhao Zhong**, Chengliang Chai, Zhaoze Sun, Ye Yuan, Lei Cao
 
 [**Project**](https://speechresearch.github.io/fastspeech2/) <strong><span class='show_paper_citations' data='4FA6C0AAAAAJ:LkGwnXOMwfcC'></span></strong>
   - This work is included by many famous speech synthesis open-source projects, such as [PaddlePaddle/Parakeet ![](https://img.shields.io/github/stars/PaddlePaddle/PaddleSpeech?style=social)](https://github.com/PaddlePaddle/PaddleSpeech), [ESPNet ![](https://img.shields.io/github/stars/espnet/espnet?style=social)](https://github.com/espnet/espnet) and [fairseq ![](https://img.shields.io/github/stars/pytorch/fairseq?style=social)](https://github.com/pytorch/fairseq).
