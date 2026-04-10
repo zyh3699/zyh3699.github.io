@@ -21,7 +21,7 @@
 <div class='paper-box-text' markdown="1">
 
 [DocDB: A Database for Unstructured Document Analysis](https://www.vldb.org/pvldb/vol18/p5387-chai.pdf) \\
-Zequn Li*, **Yuanhao Zhong***, Chengliang Chai, Zhaoze Sun, Ye Yuan, Lei Cao
+Zequn Li\*, **Yuanhao Zhong**\*, Chengliang Chai, Zhaoze Sun, Ye Yuan, Lei Cao
 
 [**Project**](https://github.com/zyh3699/DocDB) <strong><span class='show_paper_citations' data='GLH_HM0AAAAJ:u-x6o8ySG0sC'></span></strong> \| [**Video Demo**](https://youtu.be/8yDIKOBHIOg) 
   - **DocDB** is tailored for unstructured document analysis, enabling users to perform complex data filtering and joining via standard **SQL queries**.
@@ -32,4 +32,4 @@ Zequn Li*, **Yuanhao Zhong***, Chengliang Chai, Zhaoze Sun, Ye Yuan, Lei Cao
 - `VLDB 2025` [Budget-aware Structural Table Extraction from Unstructured Documents](https://www.vldb.org/pvldb/vol18/p3695-chai.pdf), Chengliang Chai, Jiajun Li, Yuhao Deng, **Yuanhao Zhong**, Ye Yuan, Lei Cao
 
 ## 💡 Others
-- `CCL 2025` [Application of Macroscopic Pattern Prompting and Efficient Finetuning in Factivity Inference](https://aclanthology.org/2025.ccl-2.14.pdf), Zequn Li*, **Yuanhao Zhong***, et al.
+- `CCL 2025` [Application of Macroscopic Pattern Prompting and Efficient Finetuning in Factivity Inference](https://aclanthology.org/2025.ccl-2.14.pdf), Zequn Li\*, **Yuanhao Zhong**\*, et al.
