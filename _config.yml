@@ -6,58 +6,59 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Yunahao Zhong (钟元浩)"
-description              : ""
-repository               : "zyh3699/zyh3699.github.io"
-google_scholar_stats_use_cdn : true
+title: "Yunahao Zhong (钟元浩)"
+description: ""
+repository: "zyh3699/zyh3699.github.io"
+google_scholar_stats_use_cdn: true
 
 # google analytics
-google_analytics_id      : G-8FZMH4ZVHM
+google_analytics_id: G-8FZMH4ZVHM
 
 # SEO Related
-google_site_verification : ""
-bing_site_verification   : ""
-baidu_site_verification  : ""
+google_site_verification: ""
+bing_site_verification: ""
+baidu_site_verification: ""
 
 # Site Author
 author:
-  name             : "Yunahao Zhong"
-  avatar           : "images/zyhpf.jpg"
-  bio              : "Focusing on AI4Data, AI Agents and Multimodal Large Language Models."
-  location         : "Beijing, China"
-  employer         : "ChatExcel"
-  pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=GLH_HM0AAAAJ"
-  email            : "zephyrzhong248@gmail.com"
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
-  uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           : "zyh3699"
-  google_plus      :
-  keybase          :
-  instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
-  lastfm           :
-  linkedin         : 
-  dblp             : "https://dblp.org/pid/352/8283.html"
-  orcid            : "https://orcid.org/0009-0003-0132-2036"
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
-  tumblr           :
-  twitter          : 
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
-  wikipedia        :
-
+  name: "Yunahao Zhong"
+  avatar: "images/zyhpf.jpg"
+  bio: "Focusing on AI4Data, AI Agents and Multimodal Large Language Models."
+  location: "Beijing, China"
+  employer: "ChatExcel"
+  pubmed:
+  googlescholar: "https://scholar.google.com/citations?user=GLH_HM0AAAAJ"
+  school: "Beijing Institute of Technology"
+  school_url: ""
+  email: "zephyrzhong248@gmail.com"
+  researchgate: # example: "https://www.researchgate.net/profile/yourprofile"
+  uri:
+  bitbucket:
+  codepen:
+  dribbble:
+  flickr:
+  facebook:
+  foursquare:
+  github: "zyh3699"
+  google_plus:
+  keybase:
+  instagram:
+  impactstory: #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  lastfm:
+  linkedin:
+  dblp: "https://dblp.org/pid/352/8283.html"
+  orcid: "https://orcid.org/0009-0003-0132-2036"
+  pinterest:
+  soundcloud:
+  stackoverflow: # http://stackoverflow.com/users/123456/username
+  steam:
+  tumblr:
+  twitter:
+  vine:
+  weibo:
+  xing:
+  youtube:
+  wikipedia:
 
 # Reading Files
 include:
@@ -96,14 +97,12 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-
 # Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
 
 # Markdown Processing
 kramdown:
@@ -126,17 +125,14 @@ defaults:
       layout: default
       author_profile: true
 
-
 # Sass/SCSS
 sass:
   sass_dir: _sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
-
 # Outputting
 permalink: /:categories/:title/
 timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
 
 # Plugins
 plugins:
@@ -152,7 +148,6 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-
 
 # HTML Compression
 # - http://jch.penibelst.de/
