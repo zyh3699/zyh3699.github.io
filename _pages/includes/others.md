@@ -4,7 +4,7 @@
 - *2020.09 - 2023.06*, Guangzhou No.2 High School, Guangzhou.
 
 # 💬 Invited Talks
-- *2025.11*, Technical Talk at the China National Conference on Computational Linguistics (CCL 2025).
+- *2025.11*, Technical Talk at the 24th China National Conference on Computational Linguistics (CCL 2025).
 - *2025.08*, Accelerating Agent Deployment, Huawei Internal Talk.
 
 # 💻 Internships
