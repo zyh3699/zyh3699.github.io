@@ -1,16 +1,16 @@
 # 🎖 Honors and Awards
-- *2026.01*, First Prize, “Jingcai” Beijing College Students Entrepreneurship Competition.
-- *2025.12*, Special Prize, "Challenge Cup" Capital College Students' Academic Works Competition.
-- *2025.11*, Special Prize, “Century Cup” Student Entrepreneurship Competition.
-- *2025.10*, School First-Class Scholarship, Beijing Institute of Technology.
+- *2026.01*, First Prize, “Jingcai” Beijing College Students Entrepreneurship Competition (Top 5%).
+- *2025.12*, Special Prize, "Challenge Cup" Capital College Students' Academic Works Competition (Top 1%).
+- *2025.11*, Special Prize, “Century Cup” Student Entrepreneurship Competition (Top 1%).
+- *2025.10*, School First-Class Scholarship, Beijing Institute of Technology (Top 5%).
 - *2025.08*, Beijing Natural Science Foundation "Qi Yan" Program (Top 8 projects in the college).
 - *2025.08*, [Sensetime Scholarship](https://www.sensetime.com/cn/news-detail/51169803?categoryId=72) (30 students in the nation each year)
 - *2025.08*, 1st Place, Alibaba Tianchi LLM Evaluation Contest.
 - *2025.08*, National 4th Place, National Industrial Internet Entrepreneurship Competition.
-- *2025.03*, School First-Class Scholarship, Beijing Institute of Technology.
-- *2024.11*, First Prize, National Mathematical Modeling Competition.
-- *2024.11*, First Prize, National Mathematics Competition for College Students.
+- *2025.03*, School First-Class Scholarship, Beijing Institute of Technology (Top 5%).
+- *2024.11*, First Prize, National Mathematical Modeling Competition (Top 3%).
+- *2024.11*, First Prize, National Mathematics Competition for College Students (Top 3%).
 - *2024.10*, National Scholarship (Top 10 students in the college).
-- *2024.03*, School Second-Class Scholarship, Beijing Institute of Technology.
-- *2024.03*, School First-Class Scholarship, Beijing Institute of Technology.
-- *2023.11*, First Prize, BIT "Mingli Cup" Freshman Mathematics Competition.
+- *2024.03*, School Second-Class Scholarship, Beijing Institute of Technology (Top 10%).
+- *2024.03*, School First-Class Scholarship, Beijing Institute of Technology (Top 5%).
+- *2023.11*, First Prize, BIT "Mingli Cup" Freshman Mathematics Competition (Top 1%).
