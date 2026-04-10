@@ -3,7 +3,7 @@
 ## 🗄️ AI-Native Data Systems
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SIGMOD 2025</div><img src='images/doctopus.png' alt="sym" width="100%" height="120%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SIGMOD 2025</div><img src='images/doctopus.png' alt="sym" width="100%; height:220px"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Doctopus: Budget-aware Structural Data Extraction from Documents](https://dl.acm.org/doi/pdf/10.1145/3722212.3725103) \\
