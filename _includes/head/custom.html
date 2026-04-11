@@ -97,6 +97,12 @@ body {
   50%      { box-shadow: 0 0 0 3px #c9a84c99, 0 0 18px #c9a84c44; }
 }
 
+/* 作者名与头像居中对齐 */
+.author__avatar,
+.author__content {
+  text-align: center !important;
+}
+
 /* 头像金边 */
 .author__avatar img {
   border: 2px solid #c9a84c !important;
@@ -269,28 +275,6 @@ body {
     }, { passive: true });
 
     update();
-  });
-
-  /* ── 作者名打字机效果 ── */
-  document.addEventListener('DOMContentLoaded', function () {
-    var el = document.querySelector('.author__name');
-    if (!el) return;
-    var text = el.textContent.trim();
-    el.textContent = '';
-    el.style.borderRight = '2px solid #c9a84c';  // 光标
-    var i = 0;
-    var timer = setInterval(function () {
-      el.textContent += text[i];
-      i++;
-      if (i >= text.length) {
-        clearInterval(timer);
-        // 光标闪烁几下后消失
-        setTimeout(function () {
-          el.style.transition = 'border-color 0.4s';
-          el.style.borderRight = '2px solid transparent';
-        }, 1000);
-      }
-    }, 80);
   });
 
   /* ── h1 分隔线展开动画 ── */
