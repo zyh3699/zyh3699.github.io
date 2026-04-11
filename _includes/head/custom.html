@@ -271,6 +271,28 @@ body {
     update();
   });
 
+  /* ── 作者名打字机效果 ── */
+  document.addEventListener('DOMContentLoaded', function () {
+    var el = document.querySelector('.author__name');
+    if (!el) return;
+    var text = el.textContent.trim();
+    el.textContent = '';
+    el.style.borderRight = '2px solid #c9a84c';  // 光标
+    var i = 0;
+    var timer = setInterval(function () {
+      el.textContent += text[i];
+      i++;
+      if (i >= text.length) {
+        clearInterval(timer);
+        // 光标闪烁几下后消失
+        setTimeout(function () {
+          el.style.transition = 'border-color 0.4s';
+          el.style.borderRight = '2px solid transparent';
+        }, 1000);
+      }
+    }, 80);
+  });
+
   /* ── h1 分隔线展开动画 ── */
   document.addEventListener('DOMContentLoaded', function () {
     var h1s = document.querySelectorAll('.page__content h1');
