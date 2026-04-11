@@ -133,25 +133,8 @@ body {
 
 /* 论文标题字体略大 */
 .paper-box-text p:first-of-type a:first-child {
-  font-size: 1.08em;
+  font-size: 1.15em;
   font-weight: 600;
-}
-
-/* 论文标题链接下划线从左向右展开 */
-.paper-box-text a {
-  position: relative;
-  text-decoration: none !important;
-}
-.paper-box-text a::after {
-  content: '';
-  position: absolute;
-  bottom: -1px; left: 0;
-  width: 0; height: 1px;
-  background: #c9a84c;
-  transition: width 0.3s ease;
-}
-.paper-box-text a:hover::after {
-  width: 100%;
 }
 
 /* 链接悬停金色光晕（不改颜色，只加 glow） */
