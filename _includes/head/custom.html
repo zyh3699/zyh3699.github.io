@@ -92,6 +92,15 @@
   color: #c9a84c;
 }
 
+/* 导航当前 section 金色高亮 */
+.masthead__menu-item a.nav-active {
+  color: #c9a84c !important;
+}
+.masthead__menu-item a.nav-active::after {
+  width: 100% !important;
+  background: linear-gradient(90deg, transparent, #c9a84c, transparent) !important;
+}
+
 /* 鼠标金火花 */
 .g-spark {
   position: fixed;
@@ -105,6 +114,52 @@
 
 <script>
 (function () {
+
+  /* ── 导航 active 高亮 ── */
+  document.addEventListener('DOMContentLoaded', function () {
+    var headings = document.querySelectorAll('.page__content h1');
+    var navLinks = document.querySelectorAll('.masthead__menu-item a');
+    if (!headings.length || !navLinks.length) return;
+
+    // 建立 heading 文字 → nav 链接的映射（按包含关键词匹配）
+    var sections = Array.from(headings).map(function (h) {
+      return { el: h, text: h.textContent.toLowerCase() };
+    });
+
+    function matchNav(sectionText) {
+      // 尝试找 href 含 hash 且文字匹配，否则回退第一个链接
+      for (var i = 0; i < navLinks.length; i++) {
+        var lt = navLinks[i].textContent.toLowerCase();
+        if (sectionText.indexOf(lt) !== -1 || lt.indexOf('home') !== -1 && sectionText.indexOf('about') !== -1) {
+          return navLinks[i];
+        }
+      }
+      return null;
+    }
+
+    var activeLink = null;
+    function setActive(link) {
+      if (activeLink === link) return;
+      navLinks.forEach(function (a) { a.classList.remove('nav-active'); });
+      if (link) link.classList.add('nav-active');
+      activeLink = link;
+    }
+
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          var text = entry.target.textContent.toLowerCase();
+          var link = matchNav(text);
+          // 如果找不到精确匹配，高亮第一个 nav（Homepage）
+          setActive(link || navLinks[0]);
+        }
+      });
+    }, { rootMargin: '-15% 0px -70% 0px', threshold: 0 });
+
+    headings.forEach(function (h) { io.observe(h); });
+  });
+
+  /* ── 鼠标金火花 ── */
   var COLORS = ['#ffe8a0','#f0c860','#c9a84c','#ffd060','#e8b840'];
   var last = 0;
   document.addEventListener('mousemove', function (e) {
