@@ -24,6 +24,30 @@
 
 <!-- ── 白金风格点缀 ── -->
 <style>
+/* h1 分隔线：金色渐变从中间向两侧展开 */
+.page__content h1 {
+  border-bottom: none !important;
+  position: relative;
+}
+.page__content h1::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(90deg,
+    transparent 0%, #a07830 20%, #f0c860 50%, #a07830 80%, transparent 100%
+  );
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.page__content h1.gold-line-in::after {
+  transform: scaleX(1);
+}
+
 /* 极淡金色斜线纹理 */
 body {
   background-image: repeating-linear-gradient(
@@ -221,6 +245,20 @@ body {
     }, { passive: true });
 
     update();
+  });
+
+  /* ── h1 分隔线展开动画 ── */
+  document.addEventListener('DOMContentLoaded', function () {
+    var h1s = document.querySelectorAll('.page__content h1');
+    var lineObs = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('gold-line-in');
+          lineObs.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.2 });
+    h1s.forEach(function (h) { lineObs.observe(h); });
   });
 
   /* ── 鼠标金火花 ── */
