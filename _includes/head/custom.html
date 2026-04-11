@@ -77,6 +77,21 @@
   text-shadow: 0 0 8px rgba(201,168,76,0.35) !important;
 }
 
+/* 列表项悬停：放大 + 圆点变金色 */
+.page__content ul li {
+  transition: transform 0.2s ease;
+}
+.page__content ul li:hover {
+  transform: scale(1.02);
+}
+.page__content ul li::marker {
+  color: inherit;
+  transition: color 0.2s ease;
+}
+.page__content ul li:hover::marker {
+  color: #c9a84c;
+}
+
 /* 鼠标金火花 */
 .g-spark {
   position: fixed;
