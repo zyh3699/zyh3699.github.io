@@ -25,10 +25,6 @@
 <!-- ── 白金风格点缀 ── -->
 <style>
 /* 金色关键帧 */
-@keyframes goldFlow {
-  0%   { background-position: 0% center; }
-  100% { background-position: 200% center; }
-}
 @keyframes sparkFade {
   0%   { opacity: 0.85; transform: translate(-50%,-50%) scale(1); }
   100% { opacity: 0;    transform: translate(-50%,-50%) scale(0.1); }
@@ -53,21 +49,6 @@
   transform: scale(1.04);
 }
 
-/* Section h1 标题流金效果（仅文字渐变，不改边框） */
-.page__content h1 {
-  background: linear-gradient(
-    105deg,
-    #6a4f18 0%, #a07830 18%, #c9a84c 32%,
-    #f0c860 48%, #ffe8a0 55%, #f0c860 62%,
-    #c9a84c 76%, #a07830 88%, #6a4f18 100%
-  ) !important;
-  background-size: 200% auto !important;
-  -webkit-background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
-  background-clip: text !important;
-  animation: goldFlow 5s linear infinite !important;
-}
-
 /* Badge 金色（原来是蓝色） */
 .badge {
   background: linear-gradient(135deg, #7a5c1a, #c9a84c, #7a5c1a) !important;
@@ -90,16 +71,6 @@
 /* 链接悬停金色光晕（不改颜色，只加 glow） */
 .page__content a:hover {
   text-shadow: 0 0 8px rgba(201,168,76,0.35) !important;
-}
-
-/* paper-box 悬停时加金色左边框（不改布局） */
-.paper-box {
-  border-left: 3px solid transparent;
-  transition: border-color 0.35s ease, box-shadow 0.35s ease !important;
-}
-.paper-box:hover {
-  border-left-color: #c9a84c !important;
-  box-shadow: -2px 0 12px rgba(201,168,76,0.15) !important;
 }
 
 /* 鼠标金火花 */
