@@ -9,7 +9,7 @@
 [Doctopus: Budget-aware Structural Data Extraction from Documents](https://dl.acm.org/doi/pdf/10.1145/3722212.3725103) \\
 **Yuanhao Zhong**, Yuhao Deng, Chengliang Chai, et al.
 
-[**Project**](https://github.com/zyh3699/Doctopus_backend) <strong><span class='show_paper_citations' data='GLH_HM0AAAAJ:u5HHmVD_uO8C'></span></strong> \| [**Video Demo**](https://youtu.be/Cxl_PfvZY10?si=NYoHt2SyD9KHqd6V) 
+[**Project**](https://github.com/zyh3699/Doctopus_backend) \| <strong><span class='show_paper_citations' data='GLH_HM0AAAAJ:u5HHmVD_uO8C'></span></strong> \| [**Video Demo**](https://youtu.be/Cxl_PfvZY10?si=NYoHt2SyD9KHqd6V) 
 
 - **Doctopus** is a framework designed to accurately extract structured data from large-scale unstructured documents under cost constraints.
 - **Impact**: Doctopus improves accuracy by **11%** under the same cost, or achieves a **2.7x cost reduction** while maintaining precision.
@@ -23,7 +23,7 @@
 [DocDB: A Database for Unstructured Document Analysis](https://www.vldb.org/pvldb/vol18/p5387-chai.pdf) \\
 Zequn Li\*, **Yuanhao Zhong**\*, Chengliang Chai, Zhaoze Sun, Ye Yuan, Lei Cao
 
-[**Project**](https://github.com/zyh3699/DocDB) <strong><span class='show_paper_citations' data='GLH_HM0AAAAJ:u-x6o8ySG0sC'></span></strong> \| [**Video Demo**](https://youtu.be/8yDIKOBHIOg) 
+[**Project**](https://github.com/zyh3699/DocDB) \| <strong><span class='show_paper_citations' data='GLH_HM0AAAAJ:u-x6o8ySG0sC'></span></strong> \| [**Video Demo**](https://youtu.be/8yDIKOBHIOg) 
   - **DocDB** is tailored for unstructured document analysis, enabling users to perform complex data filtering and joining via standard **SQL queries**.
   - **Performance**: DocDB significantly outperforms existing systems in query accuracy, execution latency, and Token consumption cost.
 </div>
