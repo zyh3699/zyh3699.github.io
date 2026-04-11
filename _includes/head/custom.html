@@ -131,6 +131,23 @@ body {
   animation: badgeShine 3s 1s linear infinite;
 }
 
+/* 论文标题链接下划线从左向右展开 */
+.paper-box-text a {
+  position: relative;
+  text-decoration: none !important;
+}
+.paper-box-text a::after {
+  content: '';
+  position: absolute;
+  bottom: -1px; left: 0;
+  width: 0; height: 1px;
+  background: #c9a84c;
+  transition: width 0.3s ease;
+}
+.paper-box-text a:hover::after {
+  width: 100%;
+}
+
 /* 链接悬停金色光晕（不改颜色，只加 glow） */
 .page__content a:hover {
   text-shadow: 0 0 8px rgba(201,168,76,0.35) !important;
