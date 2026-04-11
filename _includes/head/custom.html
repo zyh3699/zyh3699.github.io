@@ -153,7 +153,17 @@ body {
 
     var mastheadH = (document.querySelector('.masthead') || {}).offsetHeight || 60;
 
-    // 收集 h1 信息；navLinks[0] 默认对应页面顶部（About Me / Homepage）
+    // 找 About Me 对应的 nav 链接（href 或文字含 about）
+    var aboutLink = navLinks[0];
+    for (var i = 0; i < navLinks.length; i++) {
+      var href = (navLinks[i].getAttribute('href') || '').toLowerCase();
+      var txt  = navLinks[i].textContent.toLowerCase();
+      if (href.indexOf('about') !== -1 || txt.indexOf('about') !== -1) {
+        aboutLink = navLinks[i]; break;
+      }
+    }
+
+    // 收集 h1 信息
     var sections = Array.from(headings).map(function (h) {
       return { el: h, text: h.textContent.replace(/\s+/g, ' ').trim() };
     });
@@ -185,7 +195,7 @@ body {
       sections.forEach(function (s) {
         if (s.el.getBoundingClientRect().top + scrollY <= trigger) current = s;
       });
-      setActive(current ? (findNavForSection(current.text) || navLinks[0]) : navLinks[0]);
+      setActive(current ? (findNavForSection(current.text) || aboutLink) : aboutLink);
     }
 
     // 点击立即生效；trackpad 惯性 wheel 在点击后 400ms 内不覆盖
