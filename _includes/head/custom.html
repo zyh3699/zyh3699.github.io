@@ -48,6 +48,39 @@
   transform: scaleX(1);
 }
 
+/* 滚动进度条 */
+#gold-progress {
+  position: fixed;
+  top: 0; left: 0;
+  width: 0%;
+  height: 2px;
+  background: linear-gradient(90deg, #a07830, #f0c860, #c9a84c);
+  z-index: 9999;
+  transition: width 0.1s linear;
+  pointer-events: none;
+}
+
+/* 引用数金色徽章 */
+.show_paper_citations:not(:empty) {
+  display: inline-block;
+  background: linear-gradient(135deg, #7a5c1a, #c9a84c);
+  color: #fff8e8 !important;
+  font-size: 0.75em;
+  font-weight: 600;
+  padding: 1px 7px;
+  border-radius: 10px;
+  margin-left: 4px;
+  vertical-align: middle;
+  box-shadow: 0 0 6px rgba(201,168,76,0.3);
+  letter-spacing: 0.03em;
+}
+
+/* news 时间戳淡金色 */
+.page__content ul li em {
+  color: #a07830 !important;
+  font-style: italic;
+}
+
 /* 极淡金色斜线纹理 */
 body {
   background-image: repeating-linear-gradient(
@@ -246,6 +279,16 @@ body {
 
     update();
   });
+
+  /* ── 滚动进度条 ── */
+  var bar = document.createElement('div');
+  bar.id = 'gold-progress';
+  document.body.insertBefore(bar, document.body.firstChild);
+  window.addEventListener('scroll', function () {
+    var scrolled = window.scrollY || window.pageYOffset;
+    var total = document.body.scrollHeight - window.innerHeight;
+    bar.style.width = (total > 0 ? (scrolled / total * 100) : 0) + '%';
+  }, { passive: true });
 
   /* ── h1 分隔线展开动画 ── */
   document.addEventListener('DOMContentLoaded', function () {
