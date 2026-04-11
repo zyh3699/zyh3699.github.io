@@ -49,15 +49,19 @@
   transform: scale(1.04);
 }
 
-/* Badge 金色（原来是蓝色） */
+/* Badge 金色（保留原来 position:absolute 定位，只换颜色+加扫光） */
+@keyframes goldFlow {
+  0%   { background-position: 0% center; }
+  100% { background-position: 200% center; }
+}
 .badge {
   background: linear-gradient(135deg, #7a5c1a, #c9a84c, #7a5c1a) !important;
   background-size: 200% auto !important;
   animation: goldFlow 4s linear infinite !important;
   color: #fff8e8 !important;
   border: none !important;
-  overflow: hidden;
-  position: relative;
+  overflow: hidden !important;
+  /* position/margin/padding 全部保持原样，不覆盖 */
 }
 .badge::after {
   content: '';
