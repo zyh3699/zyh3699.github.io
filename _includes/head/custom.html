@@ -183,14 +183,21 @@
       setActive(current ? findNavForSection(current.text) : navLinks[0]);
     }
 
-    // 点击 nav 链接时立即激活，不等滚动检测
+    // 点击立即激活；只有用户主动滚动（wheel/touch）才重新判断位置
+    var userScrolling = false;
+    window.addEventListener('wheel',      function () { userScrolling = true; }, { passive: true });
+    window.addEventListener('touchmove',  function () { userScrolling = true; }, { passive: true });
+
     navLinks.forEach(function (link) {
       link.addEventListener('click', function () {
+        userScrolling = false;  // 重置，此次自动滚动不触发位置更新
         setActive(link);
       });
     });
 
-    window.addEventListener('scroll', update, { passive: true });
+    window.addEventListener('scroll', function () {
+      if (userScrolling) update();
+    }, { passive: true });
     update(); // 初始化
   });
 
