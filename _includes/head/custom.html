@@ -92,27 +92,31 @@
   color: #c9a84c;
 }
 
+/* 隐藏原有灰色条形（::before），只用金色 ::after */
+.greedy-nav .visible-links a::before {
+  display: none !important;
+}
 /* 导航链接悬停 + active 金色下划线 */
-.masthead__menu-item a {
+.greedy-nav .visible-links a {
   position: relative;
   text-decoration: none !important;
 }
-.masthead__menu-item a::after {
+.greedy-nav .visible-links a::after {
   content: '';
   position: absolute;
-  bottom: -2px;
+  bottom: 0;
   left: 50%;
   transform: translateX(-50%);
   width: 0;
-  height: 1px;
+  height: 2px;
   background: linear-gradient(90deg, transparent, #c9a84c, transparent);
   transition: width 0.3s ease;
 }
-.masthead__menu-item a:hover::after,
-.masthead__menu-item a.nav-active::after {
+.greedy-nav .visible-links a:hover::after,
+.greedy-nav .visible-links a.nav-active::after {
   width: 100%;
 }
-.masthead__menu-item a.nav-active {
+.greedy-nav .visible-links a.nav-active {
   color: #c9a84c !important;
 }
 
@@ -178,6 +182,13 @@
 
       setActive(current ? findNavForSection(current.text) : navLinks[0]);
     }
+
+    // 点击 nav 链接时立即激活，不等滚动检测
+    navLinks.forEach(function (link) {
+      link.addEventListener('click', function () {
+        setActive(link);
+      });
+    });
 
     window.addEventListener('scroll', update, { passive: true });
     update(); // 初始化
