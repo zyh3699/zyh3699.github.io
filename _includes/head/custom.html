@@ -153,12 +153,10 @@ body {
 
     var mastheadH = (document.querySelector('.masthead') || {}).offsetHeight || 60;
 
-    // 找 About Me 对应的 nav 链接（href 或文字含 about）
+    // 找文字精确为 "About Me" 的 nav 链接
     var aboutLink = navLinks[0];
     for (var i = 0; i < navLinks.length; i++) {
-      var href = (navLinks[i].getAttribute('href') || '').toLowerCase();
-      var txt  = navLinks[i].textContent.toLowerCase();
-      if (href.indexOf('about') !== -1 || txt.indexOf('about') !== -1) {
+      if (navLinks[i].textContent.trim().toLowerCase() === 'about me') {
         aboutLink = navLinks[i]; break;
       }
     }
