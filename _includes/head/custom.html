@@ -134,30 +134,29 @@
 <script>
 (function () {
 
-  /* ── 导航 active 高亮（scroll 位置检测，方向无关） ── */
+  /* ── 导航 active 高亮 ── */
   document.addEventListener('DOMContentLoaded', function () {
     var headings = document.querySelectorAll('.page__content h1');
-    var navLinks = document.querySelectorAll('.masthead__menu-item a');
-    if (!headings.length || !navLinks.length) return;
+    var navLinks = document.querySelectorAll('.greedy-nav .visible-links .masthead__menu-item a');
+    if (!navLinks.length) return;
 
     var mastheadH = (document.querySelector('.masthead') || {}).offsetHeight || 60;
 
-    // 收集所有 h1 的文字和位置
+    // 收集 h1 信息；navLinks[0] 默认对应页面顶部（About Me / Homepage）
     var sections = Array.from(headings).map(function (h) {
       return { el: h, text: h.textContent.replace(/\s+/g, ' ').trim() };
     });
 
-    // 用 nav 链接文字去模糊匹配 section 标题
     function findNavForSection(sectionText) {
       var st = sectionText.toLowerCase();
       for (var i = 0; i < navLinks.length; i++) {
         var nt = navLinks[i].textContent.toLowerCase().trim();
         if (!nt) continue;
-        if (st.indexOf(nt) !== -1 || nt.indexOf(st.split(/\s/)[0]) !== -1) {
+        if (st.indexOf(nt) !== -1 || nt.split(/\s/)[0].length > 2 && st.indexOf(nt.split(/\s/)[0]) !== -1) {
           return navLinks[i];
         }
       }
-      return navLinks[0]; // 默认回退首个（Homepage）
+      return null;
     }
 
     var activeLink = null;
@@ -170,27 +169,30 @@
 
     function update() {
       var scrollY = window.scrollY || window.pageYOffset;
-      var trigger = scrollY + mastheadH + 20; // 加一点 buffer
-
-      // 找最后一个 top <= trigger 的 heading（向上滚也正确）
+      var trigger = scrollY + mastheadH + 20;
       var current = null;
       sections.forEach(function (s) {
-        if (s.el.getBoundingClientRect().top + scrollY <= trigger) {
-          current = s;
-        }
+        if (s.el.getBoundingClientRect().top + scrollY <= trigger) current = s;
       });
-
-      setActive(current ? findNavForSection(current.text) : navLinks[0]);
+      setActive(current ? (findNavForSection(current.text) || navLinks[0]) : navLinks[0]);
     }
 
-    // 点击立即激活；只有用户主动滚动（wheel/touch）才重新判断位置
+    // 点击立即生效；trackpad 惯性 wheel 在点击后 400ms 内不覆盖
     var userScrolling = false;
-    window.addEventListener('wheel',      function () { userScrolling = true; }, { passive: true });
-    window.addEventListener('touchmove',  function () { userScrolling = true; }, { passive: true });
+    var lastClickTime = 0;
+
+    window.addEventListener('wheel', function () {
+      if (Date.now() - lastClickTime > 400) userScrolling = true;
+    }, { passive: true });
+    window.addEventListener('touchmove', function () { userScrolling = true; }, { passive: true });
+    window.addEventListener('keydown', function (e) {
+      if ([32,33,34,35,36,38,40].indexOf(e.keyCode) !== -1) userScrolling = true;
+    });
 
     navLinks.forEach(function (link) {
       link.addEventListener('click', function () {
-        userScrolling = false;  // 重置，此次自动滚动不触发位置更新
+        lastClickTime = Date.now();
+        userScrolling = false;
         setActive(link);
       });
     });
@@ -198,7 +200,8 @@
     window.addEventListener('scroll', function () {
       if (userScrolling) update();
     }, { passive: true });
-    update(); // 初始化
+
+    update();
   });
 
   /* ── 鼠标金火花 ── */
