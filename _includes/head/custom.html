@@ -72,6 +72,17 @@
   animation: badgeShine 3s 1s linear infinite;
 }
 
+/* 论文图片悬停轻微放大 */
+.paper-box-image {
+  overflow: hidden;
+}
+.paper-box-image img {
+  transition: transform 0.35s ease;
+}
+.paper-box-image img:hover {
+  transform: scale(1.04);
+}
+
 /* 链接悬停金色光晕（不改颜色，只加 glow） */
 .page__content a:hover {
   text-shadow: 0 0 8px rgba(201,168,76,0.35) !important;
